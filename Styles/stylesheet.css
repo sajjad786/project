@@ -1,0 +1,86 @@
+/* general stlyes 
+
+body (  /*selector is for body, adjusting font, margin and background */
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+body {
+	font-size: 100 pt;
+	width: 900px;
+	margin: 0 auto;
+	background-color: green;
+	border:3px solid black;
+	
+}
+
+header{  /*this effects header size, alingment, and applies a boardere*/
+	text-align: center;
+	border-bottom: 3px solid black;
+	height:490px;
+	/*background-image: -webkit-linear-gradient( 60 deg, red 0%, white 50%, blue 100%);*/
+	
+}
+
+header img{
+	float:right;
+	width:300px;
+}
+
+#copyright { /* move copyright to the center */
+		text-align: right;
+}
+
+main li { /*this changes the bullet points from circles to squares */
+	font-size: 125%;
+	list-style-type: square;
+	padding:2em;
+}
+
+h1,h2{  /* changes both headers at once */
+	color:navy;
+	padding-top: 2em;
+}
+
+/*
+h1+ing {
+	margin-top: .7em;
+} /*this is a sibling selector*/
+
+
+main>p {  /* changes size of main texts of all paragraphs*/
+	font-size: 125%;
+	/*padding-left: .75em;
+	padding-right:.75em;
+	padding-top:.75em;
+	padding-bottom:.75em; */
+	padding:.5em .25em .15em .75em;
+	/*Top right bottom and left padding*/
+}
+
+
+main ul{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.large{ /*changes the size of the url link*/
+	font-size: 200%;
+}
+
+a:link { /*changes the color of links*/
+	color:red;
+	font-size: 120%;
+
+}
+
+a:hover, a:focus {  /*changes the color of link when curser is hovering it*/
+	color: purple;
+}
+
+footer {
+	clear:both;
+}
+
